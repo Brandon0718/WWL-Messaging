@@ -1,0 +1,37 @@
+//
+//  MyPrefixHeader.pch
+//  8a-ios
+//
+//  Created by Mobile on 21/04/2017.
+//  Copyright © 2017 Allfree Group LLC. All rights reserved.
+//
+
+#ifndef MyPrefixHeader_pch
+#define MyPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <GoogleMaps/GoogleMaps.h>
+#import "MyService.h"
+#import "MBProgressHUD.h"
+#import "UserInfoModel.h"
+#import "AppDelegate.h"
+#import "Global.h"
+#import "RMPaperTrailLogger.h"
+#import "WWLDefine.h"
+#import "StoryboardManager.h"
+#import "MessagingManager.h"
+#import "NSString+custom.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <LGSideMenuController/LGSideMenuController.h>
+#import <LGSideMenuController/UIViewController+LGSideMenuController.h>
+#import "UIViewController+Alert.h"
+#import "UserContextManager.h"
+#import "UIColor+WWLColor.h"
+
+static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+
+#define CURRENT_USER @"current user"
+
+#endif /* MyPrefixHeader_pch */
